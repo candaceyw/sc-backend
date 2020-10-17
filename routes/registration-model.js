@@ -2,10 +2,7 @@ const db = require('../database/config');
 
 module.exports = {
 	find,
-	// findById,
 	add,
-	// update,
-	// remove,
 };
 
 function find() {
