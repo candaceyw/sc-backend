@@ -33,17 +33,18 @@ module.exports = {
 		connection: process.env.DATABASE_URL,
 		migrations: {
 			directory: './database/migrations',
-			tableName: 'registration',
 		},
-		seeds: { directory: './database/seeds' },
+		seeds: {
+			directory: './database/seeds',
+		},
 	},
 	// test: {
-	//   client: 'pg',
-	//   connection: 'postgres://candacewilson:postgres@localhost/test-waterPlants',
-	//   migrations: {
-	//     directory: './database/migrations',
-	//     tableName: 'registration',
-	//   },
-	//   seeds: { directory: './database/seeds' },
+	// 	client: 'pg',
+	// 	connection: process.env.DATABASE_URL,
+	// 	migrations: {
+	// 		directory: './database/migrations',
+	// 		tableName: 'registration',
+	// 	},
+	// 	seeds: { directory: './database/seeds' },
 	// },
 };
