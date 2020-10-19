@@ -9,7 +9,7 @@ npm run server
 #### END POINTS
 
 Register a user: /registration
-http method: [POST]
+_http method_: **[POST]**
 
 ##### 500 (Server error)
 
