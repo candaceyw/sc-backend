@@ -4,7 +4,7 @@
 
 #### Run Server
 
-npm run start
+npm run server
 
 #### END POINTS
 
